@@ -3,97 +3,92 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Tomi Panula</title>
   <meta name="description" content="Tomi Panula">
   <meta name="author" content="Tomi Panula">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script src="js/scripts.js"></script>
 </head>
 
-<body class="center">
-    <div class="content">
-        <ul  id="nav-bar"> <!-- transparent? top bar -->
-            <li class="nav-bar-element">
-                <a>HOME</a>
-            </li>
-            <li class="nav-bar-element">
-                <a href="projects.html">PROJEKTIT</a>
-            </li>
-            <li class="nav-bar-element">
-                <a href="jotainmuuta.html">CONTACT </a>
-            </li>
-        </ul>
-    </div>
-    
-    <div class="content" id > <!-- probably transparent layer with the name -->
-        <div id="name-container">
-            <h1>Tomi Panula</h1>
-            <h3>Frontend oriented full stack developer</h3>
+<body>
+    <ul id="nav-bar"> <!-- transparent? top bar -->
+        <li class="nav-bar-element">
+            <a href="home.html"><b>HOME</b></a>
+        </li>
+        <li class="nav-bar-element">
+            <a href="projects.html"><b>PROJECTS</b></a>
+        </li>
+        <li class="nav-bar-element">
+            <a href="jotainmuuta.html"><b>CONTACT</b> </a>
+        </li>
+    </ul>
+    <div class="center">
+        <div class="content" id > <!-- probably transparent layer with the name -->
+            <div id="name-container">
+                <h1 id="name">Tomi Panula</h1>
+                <h3 id="slogan">- Frontend oriented full stack developer -</h3>
+            </div>
+        </div>
+        <div id="main" class="center">
+            <div class="content"> <!-- main section -->
+                <ul id="project-list">
+                    <li class="card" >
+                        <img src="images/mappic.png" class="card-img-top"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Mappic</h4>
+                            <p class="card-text">Web service where users can 
+                                add pictures on map for others
+                                to see.</p>
+                                <a href="#" class="btn btn-outline-primary">SEE MORE</a>
+                        </div>
+                    </li>
+                    <li class="card" >
+                        <img src="images/mappic.png" class="card-img-top"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Mappic</h4>
+                            <p class="card-text">Web service where users can 
+                                add pictures on map for others
+                                to see.</p>
+                                <a href="#" class="btn btn-outline-primary">SEE MORE</a>
+                        </div>
+                    </li>
+                    <li class="card" >
+                        <img src="images/mappic.png" class="card-img-top"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Mappic</h4>
+                            <p class="card-text">Web service where users can 
+                                add pictures on map for others
+                                to see.</p>
+                                <a href="#" class="btn btn-outline-primary">SEE MORE</a>
+                        </div>
+                    </li>
+                    <li class="card" >
+                        <img src="images/mappic.png" class="card-img-top"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Mappic</h4>
+                            <p class="card-text">Web service where users can 
+                                add pictures on map for others
+                                to see.</p>
+                                <a href="#" class="btn btn-outline-primary">SEE MORE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="footer">
+                <div class="content">   <!-- footer -->
+                contact me!
+            </div>
         </div>
     </div>
-    <div id="main" class="center">
-        <div class="content"> <!-- main section -->
-            <p> on paljon projekteja juu </p>
-            <ul id="project-list">
-                <li class="project-list-item">
-                    <div class="project-container">
-                        <h4>Mappic</h4>
-                        <p>karttaprojekti</p>
-                    </div>
-                </li>
-                <li class="project-list-item">
-                    <div class="project-container">
-                        <h4>Mappic</h4>
-                        <p>karttaprojekti</p>
-                    </div>
-                </li>
-                <li class="project-list-item">
-                    <div class="project-container">
-                        <h4>Mappic</h4>
-                        <p>karttaprojekti</p>
-                    </div>
-                </li>
-                <li class="project-list-item">
-                    <div class="project-container">
-                        <h4>Mappic</h4>
-                        <p>karttaprojekti</p>
-                    </div>
-                </li>
-                <li class="project-list-item">
-                    <div class="project-container">
-                        <h4>Mappic</h4>
-                        <p>karttaprojekti</p>
-                    </div>
-                </li>
-                <li class="project-list-item">
-                    <div class="project-container">
-                        <h4>Mappic</h4>
-                        <p>karttaprojekti</p>
-                    </div>
-                </li>
-                <li class="project-list-item">
-                    <div class="project-container">
-                        <h4>Mappic</h4>
-                        <p>karttaprojekti</p>
-                    </div>
-                </li>
-                <li class="project-list-item">
-                    <div class="project-container">
-                        <h4>Mappic</h4>
-                        <p>karttaprojekti</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-    <div id="footer">
-            <div class="content">   <!-- footer -->
-            contact me!
-        </div>
-    </div>
-    <script src="js/scripts.js"></script>
 </body>
 </html>
