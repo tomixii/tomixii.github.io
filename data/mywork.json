@@ -1,0 +1,22 @@
+{
+    "projects":[
+        {
+            "isImportant": true,
+            "header": "Mappic",
+            "imagePath": "images/mappic.png",
+            "description": "Mappic let’s users to view images from all over the world. They can follow an area to receive push notifications when images are added near that location. This project was implemented by team of three and I worked as a full stack developer.",
+            "technologyStack": ["react", "node", "firebase"],
+            "github": "https://github.com",
+            "demo": "https://mappic.web.app"
+        },
+        {
+            "isImportant": true,
+            "header": "Gamebuddies",
+            "imagePath": "images/gamebuddies.png",
+            "description": "Gamebuddies is a website that can be used to find like minded people to play games with. This project was implemented by team of three and I worked as a full stack developer.",
+            "technologyStack": ["react", "node", "firebase"],
+            "github": "https://github.com",
+            "demo": "https://gamebuddies-48e41.web.app/"
+        }
+    ]
+}
