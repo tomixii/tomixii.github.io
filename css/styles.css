@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #2274a5;
+  background-color: #131b23;
   margin: 0;
 }
 
@@ -18,7 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 90%;
+  width: 90%;
 }
 
 li {
@@ -30,6 +30,7 @@ li {
   background-color: #e7dfc6;
   margin: 0;
   position: relative;
+  padding: 0;
 }
 
 #main-content {
